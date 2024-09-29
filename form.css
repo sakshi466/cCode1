@@ -1,0 +1,44 @@
+
+body{
+    background-color:#accbdb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27 ;
+}
+
+.container{
+    padding: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #7abee1;
+    color: rgb(31, 34, 34);
+    box-shadow: #151617;
+}
+form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+form label {
+    border-radius: 10px;
+    font-size:medium;
+    margin-bottom :10px;
+}
+form input{
+    border-radius: 10px;
+    padding : 8px;
+    border: none;
+    outline: none;
+
+}
+form select {
+    border-radius: 10px;
+    padding: 8px;
+}
+form button {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgb(246, 248, 249);
+    border:none;
+    border-radius: 10px;
+}
